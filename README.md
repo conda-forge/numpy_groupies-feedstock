@@ -14,9 +14,7 @@ Summary: Optimised tools for group-indexing operations: aggregated sum and more.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/numpy_groupies-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/numpy_groupies-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/numpy_groupies-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/numpy-groupies-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock)
 
 Current release info
 ====================
