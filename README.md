@@ -14,12 +14,15 @@ Summary: Optimised tools for group-indexing operations: aggregated sum and more.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/numpy_groupies-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/numpy_groupies-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/numpy_groupies/badges/version.svg)](https://anaconda.org/conda-forge/numpy_groupies)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/numpy_groupies/badges/downloads.svg)](https://anaconda.org/conda-forge/numpy_groupies)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-numpy_groupies-green.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) |
 
 Installing numpy_groupies
 =========================
