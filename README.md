@@ -7,7 +7,7 @@ About numpy_groupies
 
 Home: https://github.com/ml31415/numpy-groupies
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD 3-Clause
 
