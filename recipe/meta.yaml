@@ -9,15 +9,14 @@ source:
   sha256: a6835c252b7bd489e0f701f8bf5bc880c647ef251e3b434998b95a8aecc9b68a
 
 build:
-  noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
     - python
     - pip
-    # This is a bogus build dependency and should be fixed usptream,
     - pytest-runner
   run:
     - python
@@ -29,8 +28,7 @@ test:
 about:
   home: https://github.com/ml31415/numpy-groupies
   license: BSD-2-Clause
-  # Not in the soure tarball.
-  # license_file: LICENSE.txt
+  license_file: LICENSE.txt
   summary: 'Optimised tools for group-indexing operations: aggregated sum and more.'
 
 extra:
