@@ -1,4 +1,4 @@
-{% set version = "0.9.10" %}
+{% set version = "0.9.11" %}
 
 package:
   name: numpy_groupies
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/n/numpy_groupies/numpy_groupies-{{ version }}.tar.gz
-  sha256: a6835c252b7bd489e0f701f8bf5bc880c647ef251e3b434998b95a8aecc9b68a
+  sha256: 2498cdc466c914bf661b2cdde21605c1e5fd0109f51155c71ea25ba7a3acfecd
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
