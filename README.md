@@ -5,7 +5,7 @@ Home: https://github.com/ml31415/numpy-groupies
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Optimised tools for group-indexing operations: aggregated sum and more.
 
