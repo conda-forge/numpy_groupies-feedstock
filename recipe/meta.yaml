@@ -1,11 +1,13 @@
+{% set name = "numpy_groupies" %}
 {% set version = "0.9.14" %}
 
+
 package:
-  name: numpy_groupies
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/numpy_groupies/numpy_groupies-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numpy_groupies-{{ version }}.tar.gz
   sha256: 01b7aeca60e643db34875c9823ea6775742adafe5bb406bca14367743ef81800
 
 build:
@@ -15,15 +17,19 @@ build:
 
 requirements:
   host:
-    - python
     - pip
     - pytest-runner
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
     - numpy_groupies
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/ml31415/numpy-groupies
