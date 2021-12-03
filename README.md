@@ -116,6 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@dcherian](https://github.com/dcherian/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@synapticarbors](https://github.com/synapticarbors/)
 
