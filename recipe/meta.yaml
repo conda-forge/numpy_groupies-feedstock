@@ -1,5 +1,5 @@
 {% set name = "numpy_groupies" %}
-{% set version = "0.9.16" %}
+{% set version = "0.9.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/numpy_groupies-{{ version }}.tar.gz
-  sha256: 793123bf53e1fa722ce7798efd735f12f915d404362618d1747b7fb580687046
+  sha256: de9390b1e5e4d84c27f0f520158b4ee8afb91035972d8e22dd0aea00f5588e3a
 
 build:
   number: 0
