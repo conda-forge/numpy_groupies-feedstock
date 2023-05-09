@@ -1,11 +1,11 @@
-About numpy_groupies
-====================
+About numpy_groupies-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numpy_groupies-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ml31415/numpy-groupies
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numpy_groupies-feedstock/blob/main/LICENSE.txt)
 
 Summary: Optimised tools for group-indexing operations: aggregated sum and more.
 
