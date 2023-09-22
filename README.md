@@ -144,6 +144,7 @@ Feedstock Maintainers
 =====================
 
 * [@dcherian](https://github.com/dcherian/)
+* [@ml31415](https://github.com/ml31415/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@synapticarbors](https://github.com/synapticarbors/)
 
