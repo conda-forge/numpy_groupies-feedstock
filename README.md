@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-numpy_groupies-green.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-numpy__groupies-green.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/numpy_groupies.svg)](https://anaconda.org/conda-forge/numpy_groupies) |
 
 Installing numpy_groupies
 =========================
