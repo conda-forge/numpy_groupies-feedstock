@@ -1,0 +1,49 @@
+schema_version: 1
+
+context:
+  version: "0.12.1"
+
+package:
+  name: numpy_groupies
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/n/numpy_groupies/numpy_groupies-${{ version }}.tar.gz
+  sha256: 6461d5f9b83c15ab7af74738f09293ab3b2f187abd249288c24a9761116576c2
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - setuptools >=77
+    - setuptools-scm >=8
+    - pip
+  run:
+    - python >=${{ python_min }}
+    - numpy
+
+tests:
+  - python:
+      imports:
+        - numpy_groupies
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
+
+about:
+  summary: "Optimised tools for group-indexing operations: aggregated sum and more."
+  license: BSD-2-Clause
+  license_file: LICENSE.txt
+  homepage: https://pypi.org/project/numpy-groupies/
+
+extra:
+  recipe-maintainers:
+    - dcherian
+    - ml31415
+    - ocefpaf
+    - synapticarbors
