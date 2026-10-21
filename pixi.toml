@@ -5,7 +5,7 @@
 
 [workspace]
 name = "numpy_groupies-feedstock"
-version = "2026.10.20"  # conda-smithy version used to generate this file
+version = "2026.10.21"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/numpy_groupies-feedstock"
 authors = ["@conda-forge/numpy_groupies"]
 channels = ["conda-forge"]
