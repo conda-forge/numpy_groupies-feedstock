@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.16.0"
+  version: "0.16.1"
 
 package:
   name: numpy_groupies
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/numpy_groupies/numpy_groupies-${{ version }}.tar.gz
-  sha256: eb2a3c33697dee6b5c27e5c132b1c8b67d27ef7cf02355a7a9c2671b6badca59
+  sha256: 9fc6b704fbf7dab25f4cdab8a2d973620056b5dc3f02b176c4bef2523a1d33f8
 
 build:
   number: 0
